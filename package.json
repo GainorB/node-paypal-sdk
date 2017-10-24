@@ -1,7 +1,8 @@
 {
   "name": "node-paypal-sdk",
   "version": "1.0.0",
-  "description": "",
+  "description":
+    "Simple application utilizing PayPal SDK to accept transactions using PayPal. With little modification we can extend this application to store transactions in a database.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
