@@ -1,0 +1,26 @@
+{
+  "name": "node-paypal-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GainorB/node-paypal-sdk.git"
+  },
+  "author": "Gainor Bostwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GainorB/node-paypal-sdk/issues"
+  },
+  "homepage": "https://github.com/GainorB/node-paypal-sdk#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "paypal-rest-sdk": "^1.7.1"
+  }
+}
