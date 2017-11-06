@@ -109,5 +109,5 @@ app.get('/success', (req, res) => {
 app.get('/cancel', (req, res) => res.send('Cancelled Transaction'));
 
 // STARTING SERVER
-const PORT = 3000;
+const PORT = 3004 || process.env.PORT;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
